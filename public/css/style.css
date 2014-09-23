@@ -1,3 +1,50 @@
 .container {
 margin: 20 20 20 20px;
 }
+
+.button {
+margin: 0;
+padding: 11px 21px;
+font-size: 14px;
+font-weight: bold;
+line-height: 1;
+color: #343434 !important;
+background: #f0b910;
+border: 1px solid #bb9110;
+text-decoration: none !important;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+cursor: pointer;
+border-radius: 21px;
+-moz-border-radius: 21px;
+-o-border-radius: 21px;
+box-shadow: 0 1px 1px rgba(0,0,0,.25), 1px 1px 0 rgba(255,255,255,.5) inset;
+-moz-box-shadow: 0 1px 1px rgba(0,0,0,.25), 1px 1px 0 rgba(255,255,255,.5) inset;
+-o-box-shadow: 0 1px 1px rgba(0,0,0,.25), 1px 1px 0 rgba(255,255,255,.5) inset;
+}
+
+.button.secondary {
+padding: 7px 14px;
+font-size: 12px;
+}
+
+.button.quiet {
+background-color: #efefef;
+border-color: #ccc;
+}
+
+.important, a.important {
+font-weight: bold;
+color: #ad3b0e !important;
+}
+.text-label {
+display: inline-block;
+border: 2px solid #e7e7da;
+border-radius: 4px;
+padding: 3px 4px 2px 4px;
+line-height: 1;
+font-size: .75em;
+font-weight: bold;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #9b9b8f;
+}
